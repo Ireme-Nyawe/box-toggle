@@ -1,3 +1,7 @@
-export default function Box(){
-return("boxes")
+export default function Box(props) {
+  return (
+      <div className="box">
+        <span>{props.id}</span>
+      </div>
+  );
 }

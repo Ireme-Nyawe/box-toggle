@@ -2,3 +2,28 @@
   font-family: Karl, sans-serif;
   box-sizing: border-box;
 }
+.box-container{
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+}
+.box{
+  width: 240px;
+  height: 220px;
+  color: green;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 2px 0px 6px black;
+  font-size: 30px;
+  font-weight: bold;
+
+}

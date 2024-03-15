@@ -1,5 +1,10 @@
 import Box from "./components/Box";
+import boxes from "./components/boxes";
 
-export default function App(){
-  return <Box></Box>
+const boxData = boxes.map((boxItem) => {
+  return <Box {...boxItem}></Box>;
+});
+
+export default function App() {
+  return <div className="box-container">{boxData}</div>;
 }
